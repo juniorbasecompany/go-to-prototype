@@ -7,19 +7,19 @@ $button-form--group-padding: 	12px;		// padding separating input from button in 
 
 // Buttons: text color
 $button--color: (
-	button-light: 		get-color(back, 2),
-	button-dark: 		get-color(front, 1),
-	button-primary: 	get-color(front, 1),
+	button-front: 		get-color(back, 1),
+	button-back: 		get-color(front, 1),
+	button-primary: 	get-color(front, 4),
 	button-secondary:	get-color(front, 1),
 	button-disabled: 	get-color(back, 3)
 );
 
 // Buttons: background color
 $button--bg: (
-	button-light: 			get-color(front, 1),
-	button-light-hover: 	darken(get-color(front, 1), 5%),
-	button-dark: 			get-color(back, 2),
-	button-dark-hover: 		lighten(get-color(back, 2), 2%),
+	button-front: 			get-color(front, 1),
+	button-front-hover: 	darken(get-color(front, 1), 5%),
+	button-back: 			get-color(back, 2),
+	button-back-hover: 		lighten(get-color(back, 2), 2%),
 	button-primary: 		get-color(primary, 1),
 	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
 	button-secondary: 		get-color(secondary, 1),
@@ -29,10 +29,10 @@ $button--bg: (
 
 // Buttons: border color
 $button--border: (
-	button-light: 			transparent,	// button-light is default (.button), so if it's transparent you can set all other values to null
-	button-light-hover: 	null,
-	button-dark: 			null,
-	button-dark-hover: 		null,
+	button-front: 			transparent,	// button-front is default (.button), so if it's transparent you can set all other values to null
+	button-front-hover: 	null,
+	button-back: 			null,
+	button-back-hover: 		null,
 	button-primary: 		null,
 	button-primary-hover: 	null,
 	button-secondary: 		null,

@@ -6,11 +6,11 @@
 	height: $button-form--height;
     text-decoration: none !important;
 	text-transform: $button--transform;
-	color: color(button-light);
-    background-color: color-bg(button-light);
+	color: color(button-front);
+    background-color: color-bg(button-front);
     border-width: $button-form--border-width;
 	border-style: $button-form--border-style;
-	border-color: color-border(button-light);
+	border-color: color-border(button-front);
     border-radius: $button--radius;
     cursor: pointer;
     justify-content: center;
@@ -24,8 +24,8 @@
     }
 
 	&:hover {
-		background-color: color-bg(button-light-hover);
-		border-color: color-border(button-light-hover);
+		background-color: color-bg(button-front-hover);
+		border-color: color-border(button-front-hover);
 	}
 
 	&.is-loading {
@@ -43,7 +43,7 @@
 			margin-top: -(get-line-height(button) * 0.5);
 			top: 50%;
 			left: 50%;
-			border: $button-loading--thickness solid color(button-light);
+			border: $button-loading--thickness solid color(button-front);
 			border-radius: 50%;
 			border-right-color: transparent !important;
 			border-top-color: transparent !important;
@@ -72,20 +72,20 @@
 	height: $button-form-sm--height;
 }
 
-.button-dark {
-	color: color(button-dark);
-    background-color: color-bg(button-dark);
-	border-color: color-border(button-dark);
+.button-back {
+	color: color(button-back);
+    background-color: color-bg(button-back);
+	border-color: color-border(button-back);
 
     &:hover {
-        background-color: color-bg(button-dark-hover);
-		border-color: color-border(button-dark-hover);
+        background-color: color-bg(button-back-hover);
+		border-color: color-border(button-back-hover);
     }
 
 	&.is-loading {
 
 		&::after {
-			border-color: color(button-dark);
+			border-color: color(button-back);
 		}
 	}
 }
