@@ -2,13 +2,13 @@
 
 // Color
 $footer--color: (
-	block-title:			get-color(light, 1),
-	block-title-inverse:	get-color(dark, 1)
+	block-title:			get-color(front, 1),
+	block-title-inverse:	get-color(back, 1)
 );
 
 // Background color
 $footer--bg: (
-	footer:	get-color(dark, 1)
+	footer:	get-color(back, 1)
 );
 
 // Font size
