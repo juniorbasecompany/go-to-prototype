@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
+import Timeline from '../components/sections/Timeline';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <Timeline />
       <Testimonial topDivider />
       <Cta split />
     </>

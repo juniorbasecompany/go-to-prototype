@@ -15,6 +15,7 @@ Reach us out on [Twitter](https://twitter.com/jrlivre) or [linkedin](https://www
 - [Nucleo](https://nucleoapp.com/)
 - [Unsplash](https://unsplash.com/)
 - [Cruip](https://cruip.com/) Copyright 2020
+- [React vertical timeline](https://stephane-monnot.github.io/react-vertical-timeline)
 
 ## Terms and License
 
