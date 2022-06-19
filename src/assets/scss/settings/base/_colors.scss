@@ -13,10 +13,10 @@ $palette: (
 		3: #33363A
 	),
 	primary: (
-		1: #6163FF,
-		2: #ACADFF,
-		3: #5658DD,
-		4: #E9E9FF
+		1: #3333ff,
+		2: #9999ff,
+		3: #6666ff,
+		4: #ccccff
  	),
 	secondary: (
 		1: #24E5AF,
@@ -38,7 +38,7 @@ $color: (
 	high-contrast: 			get-color(front, 1),
 	mid-contrast: 			get-color(front, 2),
 	low-contrast: 			get-color(front, 3),
-	primary:				get-color(primary, 3),
+	primary:				get-color(primary, 1),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),
