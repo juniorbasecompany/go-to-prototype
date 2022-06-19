@@ -2,7 +2,7 @@
 
 **Go-to** is the **company** whom is developing this application to ensure traceability and trackability telling to all player the complete story of products and processes with safety and realiability of smart contracts in an blockchain environment, widely dockable by using APIs and others ways of interconection.
 
-Reach us out on [Twitter](https://twitter.com/jrlivre) or [linkedin](https://www.linkedin.com/in/juniorbasecompany/).
+Reach us out on [Twitter](https://twitter.com/jrlivre) or [linkedin](https://www.linkedin.com/in/juniorbasecompany).
 
 ## Table of contents
 
