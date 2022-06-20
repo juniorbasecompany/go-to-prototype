@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import SectionHeader from './partials/SectionHeader';
-import SvgImage from './../layout/partials/SvgImage';
 import Image from './../elements/Image';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -66,11 +65,6 @@ const Timeline = ({
                 <p>
                   This product was produced at north of Norway
                 </p>
-                ---
-                <div>
-                  <SvgImage fileName={'feature-tile-icon-06.svg'} />
-                </div>
-                ---
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
