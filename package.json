@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/juniorbasecompany/Go-to.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,5 +48,6 @@
   "devDependencies": {
     "sass": "^1.52.3",
     "sass-loader": "^10"
-  }
+  },
+     "homepage": "https://www.go-to-company.com",
 }

@@ -90,6 +90,3 @@ https://unsplash.com
 Timeline
 https://www.npmjs.com/package/react-vertical-timeline-component
 $ npm i react-vertical-timeline-component
-
-Exemplo - Suiça, Dinamarca, Estônia
-https://www.google.com/maps/dir/Kilchberg,+Su%C3%AD%C3%A7a/Copenhage,+Dinamarca/Tallinn,+Est%C3%B4nia/@53.2059881,7.1796728,5z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x479aa782b2d09623:0x83ab66d8ef6b4282!2m2!1d8.5452125!2d47.3220092!1m5!1m1!1s0x4652533c5c803d23:0x4dd7edde69467b8!2m2!1d12.5683372!2d55.6760968!1m5!1m1!1s0x46929499df5616bf:0x400b36d18fc6270!2m2!1d24.7535747!2d59.4369608!3e0
