@@ -1,10 +1,10 @@
 // import React, { useState } from 'react';
 import React from "react";
 import classNames from "classnames";
-import { SectionProps } from "../../utils/SectionProps";
-import ButtonGroup from "../elements/ButtonGroup";
-import Button from "../elements/Button";
-import Image from "../elements/Image";
+import { SectionProps } from "../../../utils/SectionProps";
+import ButtonGroup from "../../elements/ButtonGroup";
+import Button from "../../elements/Button";
+import Image from "../../elements/Image";
 // import Modal from '../elements/Modal';
 
 const propTypes = {
@@ -71,8 +71,8 @@ const Hero = ({
 								data-reveal-delay="400"
 							>
 								We are developing an application to ensure
-								traceability and trackability telling to all
-								player the complete story of products and
+								traceability and trackability, telling to all
+								players the complete story of products and
 								processes with safety and realiability of smart
 								contracts in an blockchain environment, widely
 								dockable by using APIs and others ways of
@@ -87,7 +87,7 @@ const Hero = ({
 										tag="a"
 										color="primary"
 										wideMobile
-										href="https://cruip.com/"
+										href="https://go-to-company.com"
 									>
 										Get started
 									</Button>
@@ -95,7 +95,7 @@ const Hero = ({
 										tag="a"
 										color="back"
 										wideMobile
-										href="https://github.com/cruip/open-react-template/"
+										href="https://go-to-company.com"
 									>
 										View on Github
 									</Button>
@@ -121,10 +121,10 @@ const Hero = ({
               width={896}
               height={504} /> */}
 						<Image
-							src={require("./../../assets/images/img1.svg")}
+							src={require("./blockchain.svg")}
 							alt="Blockchain"
 							title="Blockchain"
-							width={500}
+							width={800}
 						/>
 						{/* </a> */}
 					</div>
