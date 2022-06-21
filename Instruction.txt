@@ -91,4 +91,4 @@ Timeline
 https://www.npmjs.com/package/react-vertical-timeline-component
 $ npm i react-vertical-timeline-component
 
-Teste
+v2

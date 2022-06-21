@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/juniorbasecompany/Go-to.git"
+		"url": "https://github.com/juniorbasecompany/go-to.git"
 	},
 	"scripts": {
 		"predeploy": "npm run build",
