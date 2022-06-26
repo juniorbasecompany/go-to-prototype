@@ -37,7 +37,7 @@ const App = () => {
 				<Switch>
 					<AppRoute
 						exact
-						path="/"
+						path="/go-to/"
 						component={Home}
 						layout={LayoutDefault}
 					/>
