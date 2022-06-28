@@ -43,9 +43,9 @@ const FeaturesTiles = ({
 	);
 
 	const sectionHeader = {
-		title: "Build up the whole picture",
+		title: "Traceability and Trackability",
 		paragraph:
-			"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+			"Imagine that when you take a product in your hands, you can know its origin, amount of water and other by-products used in the process, paths it has traveled, temperatures it has been subjected to, carbon footprints, in short, a wide variety of information at your fingertips. reach.",
 	};
 
 	return (
@@ -71,13 +71,13 @@ const FeaturesTiles = ({
 								</div>
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">
-										Robust Workflow
+										Blockchain safety
 									</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										Every step along the path taken by the
+										product is carefully recorded on
+										blockchain. This gives the necessary
+										guarantee to the members of the process.
 									</p>
 								</div>
 							</div>
@@ -99,14 +99,11 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">
-										Robust Workflow
-									</h4>
+									<h4 className="mt-0 mb-8">Security</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										Using the private key and public key
+										protocols, all players are guaranteed
+										access to the environment.
 									</p>
 								</div>
 							</div>
@@ -128,14 +125,10 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">
-										Robust Workflow
-									</h4>
+									<h4 className="mt-0 mb-8">API</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										The environment can be easily updated
+										using links to other systems.
 									</p>
 								</div>
 							</div>
@@ -154,14 +147,13 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">
-										Robust Workflow
-									</h4>
+									<h4 className="mt-0 mb-8">IoT </h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										The use of this technology allows the
+										integration of the environment with
+										machines, equipment, scales and other
+										objects that make up the process that
+										involves the product.
 									</p>
 								</div>
 							</div>
@@ -183,14 +175,13 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">
-										Robust Workflow
-									</h4>
+									<h4 className="mt-0 mb-8">Trackability</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										Whoever gives rise to the processes, can
+										follow the cumin that the product is
+										doing. This allows, for example, the
+										producer to know where his product is
+										being sold.
 									</p>
 								</div>
 							</div>
@@ -212,14 +203,12 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">
-										Robust Workflow
-									</h4>
+									<h4 className="mt-0 mb-8">Traceability</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit
-										in voluptate velit esse cillum dolore eu
-										fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										All players, but mainly the final
+										consumer, can know the entire path taken
+										by the product, from its origin until it
+										arrives in their hands.                                        
 									</p>
 								</div>
 							</div>
