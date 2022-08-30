@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Detail } from "./pages/detail/detail";
-import { Home } from "./pages/home/home";
-import { Login } from "./pages/login";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Detail } from './pages/detail/detail';
+import { Home } from './pages/home/home';
+import { Login } from './pages/login';
 
 function App() {
   return (
