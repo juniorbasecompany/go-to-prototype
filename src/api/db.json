@@ -1,5 +1,103 @@
 {
   "users": [
     { "id": 1, "username": "admin", "password": "0000" }    
-  ]
+  ],
+	"productList": [
+		{
+			"id": "a",
+			"name": "Wine",
+            "lang": "en",
+			"description": "Red wine!",
+			"eventList": [
+				{
+					"date": "2022-01-01",
+					"name": "Origin",
+                    "level": 1,
+					"schema": {
+						"$schema": "http://json-schema.org/draft-04/schema#",
+						"type": "object",
+						"properties": {
+							"country": {
+								"type": "string"
+							},
+							"region": {
+								"type": "string"
+							},
+							"year": {
+								"type": "integer"
+							}
+						}
+					},
+					"info": {
+						"country": "Italy",
+						"region": "Puglia",
+						"year": 2020
+					}
+				},
+				{
+					"date": "2022-02-01",
+					"name": "Storage",
+					"schema": {
+						"$schema": "http://json-schema.org/draft-04/schema#",
+						"type": "object",
+						"properties": {
+							"temperature": {
+								"type": "string"
+							}
+						}
+					},
+					"info": {
+						"temperature": "15⁰"
+					}
+				}
+			]
+		},
+		{
+			"id": "b",
+			"nome": "Wine",
+			"description": "White wine",
+			"eventList": [
+				{
+					"date": "2022-02-01",
+					"name": "Origin",
+					"schema": {
+						"$schema": "http://json-schema.org/draft-04/schema#",
+						"type": "object",
+						"properties": {
+							"country": {
+								"type": "string"
+							},
+							"grape": {
+								"type": "string"
+							},
+							"year": {
+								"type": "integer"
+							}
+						}
+					},
+					"info": {
+						"country": "Chile",
+						"grape": "Merlot",
+						"year": 2019
+					}
+				},
+				{
+					"date": "2022-02-15",
+					"name": "Storage",
+					"schema": {
+						"$schema": "http://json-schema.org/draft-04/schema#",
+						"type": "object",
+						"properties": {
+							"temperature": {
+								"type": "string"
+							}
+						}
+					},
+					"info": {
+						"temperature": "16⁰"
+					}
+				}
+			]
+		}
+	]
 }
