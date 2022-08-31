@@ -7,7 +7,12 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'standard-with-typescript',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/react',
+    'plugin:import/typescript',
+    'plugin:import/errors',
+    'plugin:import/warnings'
   ],
   overrides: [
   ],
@@ -16,8 +21,25 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react'
+    'react',
+    'prettier',
+    '@typescript-eslint'
   ],
   rules: {
-  }
+  },
+  settings: {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"],
+        "path": ["src"]
+      },
+      "typescript": {
+        "project": "."
+      }
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  },
+  ignorePatterns: ["node_modules/", ".next/", "**/__generated__/"]
 }
