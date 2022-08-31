@@ -1,0 +1,15 @@
+# Usei para criar o template
+https://vitejs.dev/
+
+# Usei para ter os dados mocados
+https://www.npmjs.com/package/json-server
+
+# Usei para estilizar os componentes (Uma versão parecida com o styled components)
+https://stitches.dev/
+
+git pull
+baixa o que o Diogo fez.
+
+git status
+mostra o que eu fiz e não foi submetido.
+
