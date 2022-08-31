@@ -1,5 +1,7 @@
 import React from 'react';
-import { Avatar, Box, Button, Container, Input } from '../../components';
+
+import { Avatar, Box, Button, Container, Input } from '@/components';
+
 import { useLoginHelper } from './login.hook';
 
 export const Login: React.FC = () => {
@@ -18,14 +20,14 @@ export const Login: React.FC = () => {
           placeholder="Username"
           name="username"
           value={values.username}
-          onChange={(e) => onSetValues(e.target.value, 'username')}
+          onChange={(e: any) => onSetValues(e.target.value, 'username')}
         />
         <Input
           size="lg"
           placeholder="Password"
           name="password"
           value={values.password}
-          onChange={(e) => onSetValues(e.target.value, 'password')}
+          onChange={(e: any) => onSetValues(e.target.value, 'password')}
         />
         <Button size="lg" bg="primary" onClick={onLogin}>
           login

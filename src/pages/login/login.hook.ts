@@ -1,7 +1,7 @@
 
 import React from 'react';
 import axios from 'axios';
-import { BASE_URL } from '../../api/config';
+import { BASE_URL } from '@/api/config';
 
 interface User {
   username: string;
